@@ -1,0 +1,217 @@
+img{
+    display: block;
+}
+.section1{
+    .wrap{
+        display: flex;
+        .left{
+            width: 50%;
+            width: 690px;
+            margin-left: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            h2{
+                font-size: 96px;
+                line-height: 128px;
+            }
+            p{
+                font-size: 24px;
+                color: #00000099;
+                
+            }
+            button{
+                padding: 16px 51px;
+                font-size: 24px;
+                line-height: 24px;
+                cursor: pointer;
+            }
+        }
+
+        .right{
+            width: 50%;
+            img{
+               width: 100%;
+            }
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content:flex-start ;
+                margin: 0;
+                padding: 0;
+                border: 1px solid #000;
+                .icon{
+                    display: block;
+                    font-size: 48px;
+                    padding: 36px;
+                    color: #000;
+                    border: 1px solid #000;
+                }
+                .text{
+
+                    padding: 48px;
+                    font-size: 48px;
+                    font-weight: bold;
+                    line-height: 48px;
+                }
+            }
+        }
+       
+    }
+}
+.section2{
+    position: relative;
+     display: flex;
+     justify-content: center;
+
+    .search{
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-100%,-50%);
+        input{
+            position: relative;
+            width: 150px;
+            padding: 15px 0;
+        }
+        .fa-angle-right{
+            position: absolute;
+            top: 0;
+            border: 1px solid #000;
+            font-size: 16px;
+            padding: 15px;
+            background: #000;
+            color: #FFF;
+        }
+    }
+    .left{
+        width: 50%;
+        img{
+            width: 100%;
+        }
+    }
+
+    .right{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            color: #00000099;
+            width: 570px;
+        }
+        h2{
+            text-align: right;
+            font-size: 72px;
+            line-height: 72px;
+        }
+    }
+}
+
+.section3{  
+    position: relative;
+    display: flex;
+    .search{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-100%,-50%);
+         input{
+             position: relative;
+             width: 150px;
+             padding: 15px 0;
+             background: #000;
+         }
+         .fa-angle-right{
+             position: absolute;
+             top: 0;
+             border: 1px solid #000;
+             font-size: 16px;
+             padding: 15px;
+             background: #FFF;
+             color: #000S;
+         }
+     }
+
+
+    .left{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        
+        p{
+            color: #00000099;
+            width: 570px;
+           margin-left: auto;
+        }
+        h2{
+            font-size: 72px;
+            line-height: 72px;
+        }
+
+    }
+    .right{
+         width: 50%;
+        img{      
+            width: 100%;
+        }
+    }
+}
+.section4{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    .text{
+        width: 570px;
+        h3{
+            font-size: 48px;
+        }
+        p{
+            color: #00000099;
+        }
+    }
+}
+
+.section5{
+    height: 640px;
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week7/img4.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-position-y:25% ;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 77px;
+    .text{
+        padding: 16px;
+        h4{
+            font-size: 24px;
+        }
+        background: #FFF;
+    }
+}
+
+.section6{
+    margin-top: 96px;
+    .card{
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        .card-item{
+            width: 32%;
+            img{
+                width: 100%;
+                height: 600px;
+            }
+            h5{
+                margin: 0;
+                font-size: 24px;
+                line-height: 31px;
+            }
+        }
+    }
+}
